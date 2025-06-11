@@ -20,7 +20,7 @@ int main() {
 
     scanf("%d", &numPrimes);
 
-    printf("Your first %d number of primes is: \n", numPrimes);
+    printf("The first %d number of primes is: \n", numPrimes);
 
     for (int i = 0, count = 0; count < numPrimes; i++) {
         if (is_prime(i)) {
